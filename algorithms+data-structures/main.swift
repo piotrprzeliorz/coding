@@ -7,5 +7,3 @@
 //
 
 import Foundation
-
-print(insertionSort([4,3,7,2,12,5,1,5,8,1]))
