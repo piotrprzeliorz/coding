@@ -7,3 +7,6 @@
 //
 
 import Foundation
+
+let x = binarySearch(key: 5, array: [1,2,5,7,8,9,12])
+print("Result to \(x)")

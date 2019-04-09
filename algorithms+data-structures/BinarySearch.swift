@@ -8,6 +8,12 @@
 
 import Foundation
 
+/// O(logn)
+///
+/// - Parameters:
+///   - key: Search element
+///   - array: Sorted array of elements
+/// - Returns: Index of searched element
 func binarySearch<T: Comparable>(key: T, array: [T]) -> Int? {
     var lowerBound = 0
     var upperBound = array.count
