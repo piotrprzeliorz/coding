@@ -12,6 +12,7 @@
 		5D5A8EF6225A800D002D2687 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A8EF5225A800D002D2687 /* Stack.swift */; };
 		5D5A8EF8225A84EA002D2687 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A8EF7225A84EA002D2687 /* Queue.swift */; };
 		5DCA3F50225A7BDA0033803B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA3F4F225A7BDA0033803B /* main.swift */; };
+		5DF80D64225F1FAE00E5B13D /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF80D63225F1FAE00E5B13D /* BinarySearchTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		5D5A8EF7225A84EA002D2687 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		5DCA3F4C225A7BDA0033803B /* algorithms+data-structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "algorithms+data-structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCA3F4F225A7BDA0033803B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5DF80D63225F1FAE00E5B13D /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DC4306B225F4AD900429F67 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				5D5A8EF5225A800D002D2687 /* Stack.swift */,
+				5D5A8EF7225A84EA002D2687 /* Queue.swift */,
+				5DF80D63225F1FAE00E5B13D /* BinarySearchTree.swift */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		5DC4306C225F4AEE00429F67 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DF4C1225BD55F002AEA38 /* InsertionSort.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		5DC4306D225F4B3B00429F67 /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				5D4BB428225D41690045E3A4 /* BinarySearch.swift */,
+			);
+			path = Searching;
+			sourceTree = "<group>";
+		};
 		5DCA3F43225A7BDA0033803B = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				5DCA3F4F225A7BDA0033803B /* main.swift */,
-				5D5A8EF5225A800D002D2687 /* Stack.swift */,
-				5D5A8EF7225A84EA002D2687 /* Queue.swift */,
-				5D4DF4C1225BD55F002AEA38 /* InsertionSort.swift */,
-				5D4BB428225D41690045E3A4 /* BinarySearch.swift */,
+				5DC4306C225F4AEE00429F67 /* Sorting */,
+				5DC4306B225F4AD900429F67 /* Data Structures */,
+				5DC4306D225F4B3B00429F67 /* Searching */,
 			);
 			path = "algorithms+data-structures";
 			sourceTree = "<group>";
@@ -133,6 +160,7 @@
 			files = (
 				5D4DF4C2225BD55F002AEA38 /* InsertionSort.swift in Sources */,
 				5D5A8EF6225A800D002D2687 /* Stack.swift in Sources */,
+				5DF80D64225F1FAE00E5B13D /* BinarySearchTree.swift in Sources */,
 				5D5A8EF8225A84EA002D2687 /* Queue.swift in Sources */,
 				5DCA3F50225A7BDA0033803B /* main.swift in Sources */,
 				5D4BB429225D41690045E3A4 /* BinarySearch.swift in Sources */,
@@ -145,6 +173,7 @@
 		5DCA3F51225A7BDA0033803B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -193,6 +222,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+					"@executable_path",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -206,6 +239,7 @@
 		5DCA3F52225A7BDA0033803B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -248,6 +282,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+					"@executable_path",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -260,8 +298,11 @@
 		5DCA3F54225A7BDA0033803B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMFMZR7T85;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -269,8 +310,11 @@
 		5DCA3F55225A7BDA0033803B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMFMZR7T85;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
