@@ -10,9 +10,9 @@ import Foundation
 
 /// O(n^2)
 ///
-/// - Parameter array: Array of Integers to sort
-/// - Returns: Sorted array of Integers in ascending order
-func insertionSort(_ array: [Int]) -> [Int] {
+/// - Parameter array: Array of elements to sort
+/// - Returns: Sorted array of elemnets in ascending order
+func insertionSort<T: Comparable>(_ array: [T]) -> [T] {
 
     var temporaryArray = array
 
