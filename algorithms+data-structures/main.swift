@@ -7,3 +7,6 @@
 //
 
 import Foundation
+
+
+print("Aga jest zjebem".indexOf("jest"))
