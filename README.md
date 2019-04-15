@@ -10,5 +10,5 @@ This repository is  dedicated to algorithms, and data structures.<br/>
    - Pattern Searching (`Brute-Force`, `Boyer-Moore`)
 - `Data Structures`
    - Tree (`BST`)
-   - Lists (`Stack`, `Queue`)
+   - Lists (`Stack`, `Queue`, `HashTable`)
 
