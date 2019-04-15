@@ -1,6 +1,6 @@
 ## Overview
 
-This repository is  dedicated to algorithms, and data structures.<br/> 
+This repository is  dedicated to practice algorithms, data structures, coding challenges.
 
 ## Contents
 
