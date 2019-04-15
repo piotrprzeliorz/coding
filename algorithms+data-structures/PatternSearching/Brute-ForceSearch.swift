@@ -9,7 +9,7 @@
 import Foundation
 
 extension String {
-    func indexOf(_ pattern: String) -> String.Index? {
+    func indexOfBF(of pattern: String) -> String.Index? {
         for i in self.indices {
             var j = i
             var found = true
