@@ -5,10 +5,10 @@ This repository is  dedicated to algorithms, and data structures.<br/>
 ## Contents
 
 - `Algorithms`
-   - Searching (`Binary`, `Linear`)
-   - Sorting (`Insertion`, `Merge`)
-   - Pattern Searching (`Brute-Force`, `Boyer-Moore`)
+   - Searching - `Binary`, `Linear`
+   - Sorting - `Insertion`, `Merge`
+   - Pattern Searching - `Brute-Force`, `Boyer-Moore`
 - `Data Structures`
-   - Tree (`BST`)
-   - Lists (`Stack`, `Queue`, `HashTable`)
+   - Tree - `BST`
+   - Lists - `Stack`, `Queue`, `HashTable`
 
