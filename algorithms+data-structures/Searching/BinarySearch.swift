@@ -8,7 +8,7 @@
 
 import Foundation
 
-/// O(logn)
+/// O(logn), array must be sorted 
 ///
 /// - Parameters:
 ///   - key: Search element

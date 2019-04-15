@@ -15,6 +15,7 @@
 		5DC54C69226328CB0048A5A9 /* Brute-ForceSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC54C68226328CB0048A5A9 /* Brute-ForceSearch.swift */; };
 		5DC54C6B22647DCA0048A5A9 /* Boyer-Moore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC54C6A22647DCA0048A5A9 /* Boyer-Moore.swift */; };
 		5DC54C6D226486200048A5A9 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC54C6C226486200048A5A9 /* HashTable.swift */; };
+		5DC54C6F2264A0E80048A5A9 /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC54C6E2264A0E80048A5A9 /* LinearSearch.swift */; };
 		5DCA3F50225A7BDA0033803B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA3F4F225A7BDA0033803B /* main.swift */; };
 		5DF80D64225F1FAE00E5B13D /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF80D63225F1FAE00E5B13D /* BinarySearchTree.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		5DC54C68226328CB0048A5A9 /* Brute-ForceSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Brute-ForceSearch.swift"; sourceTree = "<group>"; };
 		5DC54C6A22647DCA0048A5A9 /* Boyer-Moore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boyer-Moore.swift"; sourceTree = "<group>"; };
 		5DC54C6C226486200048A5A9 /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
+		5DC54C6E2264A0E80048A5A9 /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
 		5DCA3F4C225A7BDA0033803B /* algorithms+data-structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "algorithms+data-structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCA3F4F225A7BDA0033803B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5DF80D63225F1FAE00E5B13D /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				5D4BB428225D41690045E3A4 /* BinarySearch.swift */,
+				5DC54C6E2264A0E80048A5A9 /* LinearSearch.swift */,
 			);
 			path = Searching;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				5DC54C6B22647DCA0048A5A9 /* Boyer-Moore.swift in Sources */,
 				5DF80D64225F1FAE00E5B13D /* BinarySearchTree.swift in Sources */,
 				5D5A8EF8225A84EA002D2687 /* Queue.swift in Sources */,
+				5DC54C6F2264A0E80048A5A9 /* LinearSearch.swift in Sources */,
 				5DC54C6622620B010048A5A9 /* MergeSort.swift in Sources */,
 				5DCA3F50225A7BDA0033803B /* main.swift in Sources */,
 				5DC54C69226328CB0048A5A9 /* Brute-ForceSearch.swift in Sources */,

@@ -5,7 +5,7 @@ This repository is  dedicated to algorithms, and data structures.<br/>
 ## Contents
 
 - `Algorithms`
-   - Searching (`Binary`)
+   - Searching (`Binary`, `Linear`)
    - Sorting (`Insertion`, `Merge`)
    - Pattern Searching (`Brute-Force`, `Boyer-Moore`)
 - `Data Structures`
