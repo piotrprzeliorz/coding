@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D34CC46226600060031CA16 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D34CC45226600060031CA16 /* QuickSort.swift */; };
 		5D4BB429225D41690045E3A4 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4BB428225D41690045E3A4 /* BinarySearch.swift */; };
 		5D4DF4C2225BD55F002AEA38 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DF4C1225BD55F002AEA38 /* InsertionSort.swift */; };
 		5D5A8EF6225A800D002D2687 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A8EF5225A800D002D2687 /* Stack.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D34CC45226600060031CA16 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		5D4BB428225D41690045E3A4 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		5D4DF4C1225BD55F002AEA38 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		5D5A8EF5225A800D002D2687 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -60,7 +62,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5DC4306B225F4AD900429F67 /* Data Structures */ = {
+		5DC4306B225F4AD900429F67 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
 				5D5A8EF5225A800D002D2687 /* Stack.swift */,
@@ -69,7 +71,7 @@
 				5DC54C6C226486200048A5A9 /* HashTable.swift */,
 				5D889DD12264C32300FBC671 /* LinkedList.swift */,
 			);
-			path = "Data Structures";
+			path = DataStructures;
 			sourceTree = "<group>";
 		};
 		5DC4306C225F4AEE00429F67 /* Sorting */ = {
@@ -77,6 +79,7 @@
 			children = (
 				5D4DF4C1225BD55F002AEA38 /* InsertionSort.swift */,
 				5DC54C6522620B010048A5A9 /* MergeSort.swift */,
+				5D34CC45226600060031CA16 /* QuickSort.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -120,7 +123,7 @@
 			children = (
 				5DCA3F4F225A7BDA0033803B /* main.swift */,
 				5DC4306C225F4AEE00429F67 /* Sorting */,
-				5DC4306B225F4AD900429F67 /* Data Structures */,
+				5DC4306B225F4AD900429F67 /* DataStructures */,
 				5DC4306D225F4B3B00429F67 /* Searching */,
 				5DC54C64226203C50048A5A9 /* PatternSearching */,
 			);
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D34CC46226600060031CA16 /* QuickSort.swift in Sources */,
 				5D4DF4C2225BD55F002AEA38 /* InsertionSort.swift in Sources */,
 				5D5A8EF6225A800D002D2687 /* Stack.swift in Sources */,
 				5DC54C6D226486200048A5A9 /* HashTable.swift in Sources */,

@@ -38,6 +38,7 @@ class LinkedList<T> {
     }
 
     func append(value: T) {
+
         let newNode = Node(value: value)
         if let lastNode = last {
                 lastNode.next = newNode
