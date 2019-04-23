@@ -8,6 +8,11 @@
 
 import Foundation
 
+/// O(n log n)
+///
+/// - Parameter array: Array of elements to sort
+/// - Returns: Sorted array of elemnets in ascending order
+
 func quickSort<T: Comparable>(_ arr: inout [T], left: Int, right: Int) {
     print("left: \(left), right: \(right)")
     guard left < right else { return }
@@ -37,6 +42,7 @@ func partition<T: Comparable>(_ array: inout [T], _ left: Int, _ right: Int, _ p
             right -= 1
             left += 1
         }
+        print(array)
     }
     return left
 }

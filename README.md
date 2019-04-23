@@ -11,4 +11,5 @@ This repository is  dedicated to practice algorithms, data structures, coding ch
 - `Data Structures`
    - Tree - `BST`
    - Lists - `Stack`, `Queue`, `HashTable`, `LinkedList`
+   - Graph - `AdjacencyMatrix`, ` AdjacencyList`
 

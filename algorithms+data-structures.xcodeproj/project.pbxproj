@@ -12,6 +12,8 @@
 		5D4DF4C2225BD55F002AEA38 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DF4C1225BD55F002AEA38 /* InsertionSort.swift */; };
 		5D5A8EF6225A800D002D2687 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A8EF5225A800D002D2687 /* Stack.swift */; };
 		5D5A8EF8225A84EA002D2687 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A8EF7225A84EA002D2687 /* Queue.swift */; };
+		5D5FE2FE226F63B000099E67 /* AdjacencyListGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE2FD226F63B000099E67 /* AdjacencyListGraph.swift */; };
+		5D5FE300226F733300099E67 /* AdjacencyMatrixGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE2FF226F733300099E67 /* AdjacencyMatrixGraph.swift */; };
 		5D889DD22264C32300FBC671 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D889DD12264C32300FBC671 /* LinkedList.swift */; };
 		5DC54C6622620B010048A5A9 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC54C6522620B010048A5A9 /* MergeSort.swift */; };
 		5DC54C69226328CB0048A5A9 /* Brute-ForceSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC54C68226328CB0048A5A9 /* Brute-ForceSearch.swift */; };
@@ -40,6 +42,8 @@
 		5D4DF4C1225BD55F002AEA38 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		5D5A8EF5225A800D002D2687 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		5D5A8EF7225A84EA002D2687 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		5D5FE2FD226F63B000099E67 /* AdjacencyListGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyListGraph.swift; sourceTree = "<group>"; };
+		5D5FE2FF226F733300099E67 /* AdjacencyMatrixGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrixGraph.swift; sourceTree = "<group>"; };
 		5D889DD12264C32300FBC671 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		5DC54C6522620B010048A5A9 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		5DC54C68226328CB0048A5A9 /* Brute-ForceSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Brute-ForceSearch.swift"; sourceTree = "<group>"; };
@@ -62,14 +66,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5DC4306B225F4AD900429F67 /* DataStructures */ = {
+		5D5FE2FA226F5E4900099E67 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				5DF80D63225F1FAE00E5B13D /* BinarySearchTree.swift */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		5D5FE2FB226F5E5B00099E67 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
 				5D5A8EF5225A800D002D2687 /* Stack.swift */,
 				5D5A8EF7225A84EA002D2687 /* Queue.swift */,
-				5DF80D63225F1FAE00E5B13D /* BinarySearchTree.swift */,
 				5DC54C6C226486200048A5A9 /* HashTable.swift */,
 				5D889DD12264C32300FBC671 /* LinkedList.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		5D5FE2FC226F5E9500099E67 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE2FD226F63B000099E67 /* AdjacencyListGraph.swift */,
+				5D5FE2FF226F733300099E67 /* AdjacencyMatrixGraph.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		5DC4306B225F4AD900429F67 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE2FC226F5E9500099E67 /* Graphs */,
+				5D5FE2FB226F5E5B00099E67 /* Lists */,
+				5D5FE2FA226F5E4900099E67 /* Trees */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -198,6 +228,8 @@
 				5DC54C6F2264A0E80048A5A9 /* LinearSearch.swift in Sources */,
 				5DC54C6622620B010048A5A9 /* MergeSort.swift in Sources */,
 				5DCA3F50225A7BDA0033803B /* main.swift in Sources */,
+				5D5FE2FE226F63B000099E67 /* AdjacencyListGraph.swift in Sources */,
+				5D5FE300226F733300099E67 /* AdjacencyMatrixGraph.swift in Sources */,
 				5DC54C69226328CB0048A5A9 /* Brute-ForceSearch.swift in Sources */,
 				5D4BB429225D41690045E3A4 /* BinarySearch.swift in Sources */,
 			);

@@ -8,9 +8,9 @@
 
 import Foundation
 
-struct HashTable<Key: Hashable , Value> {
+struct HashTable<Key: Hashable, Value> {
 
-    private typealias Element = (key: Hashable, value: Value)
+    private typealias Element = (key: Key, value: Value)
     private typealias Bucket = [Element]
 
     private var buckets: [Bucket]
