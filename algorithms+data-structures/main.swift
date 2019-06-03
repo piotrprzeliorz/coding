@@ -7,9 +7,3 @@
 //
 
 import Foundation
-
-var a = [2,1,3]
-
-shuffle(array: &a)
-
-print(a)
