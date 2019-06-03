@@ -8,14 +8,8 @@
 
 import Foundation
 
-let graph = AdjacencyMatrixGraph<Int>()
-graph.add(1)
-graph.add(2)
-graph.add(3)
-graph.add(4)
-graph.addEdge(from: 1, to: 2, withWeight: 1.0)
-graph.addEdge(from: 2, to: 3, withWeight: 1.0)
-graph.addEdge(from: 3, to: 4, withWeight: 4.5)
+var a = [2,1,3]
 
-print(graph.description)
+shuffle(array: &a)
 
+print(a)
